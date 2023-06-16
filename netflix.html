@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Netflix
+    </title>
+    <style>
+      .flex-container {
+          display: flex;
+          background-color:black;
+          flex-wrap: wrap;
+          flex-direction: column;
+          width: 100%;
+          position: relative;
+        
+        }
+        .flex-container>div {
+          background-color: transparent;
+          padding: 5px;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          width: 100%;
+        }
+        .flex-container > div>div {
+          background-color:black;
+          padding: 5px;
+          font-size: 18px;
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+        }
+        .flex-container > div>div>div {
+          padding: 5px;
+          font-size: 18px;
+        }
+        .content{color: white;
+          position: absolute;
+          top: 60px;
+          left: 50px;
+        }
+        .firstbanner{
+          overflow: scroll;
+        }
+        .firstbanner::-webkit-scrollbar
+        {display:none;}
+        .hover img:hover{border: 5px solid white;
+        transform: scale(1.5);}
+        .img{
+         height: 130px;
+         width:200px;
+        }
+        .footer{
+          background-color: black;
+          color: white;
+          padding: 100px;
+        }
+        .tbl{
+          width:100%
+        }
+        td{
+          padding: 8px;
+        }
+      
+        
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+         <img src="C:\Users\DELL\Desktop\Netflix\1072636daredevil.jpg">
+        <div class="content"><h4>NETFLIX ORIGINAL</h4>
+          <img class="img" src="C:\Users\DELL\Desktop\Netflix\DAREDEVIL1.jpg">
+          <p>Blinded as a young boy, Matt Murdock fights injustice<br>by day as alawyer and by night as the Super Hero<br>Daredevil in Hell's Kitchen, New York City.</p>
+        </div>
+    <div>
+        <h3 style="margin:0px;color:white;">Popular on Netflix</h3>
+        <div class="firstbanner">
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\daredevil-md-web1.jpg"> </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\netflix-house-of-cards-bg-1-11.jpg"> </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\aNsToPGWT4bZ41g5UmwixOXWHLv1.jpg"> </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\the-blacklist1.jpg"> </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\marco-polo-header-2.jpg"> </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\Joker-Watch-it-on-Netflix.jpg"></div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\SpiderManNo-Way-Home.jpg"></div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\fast and furoius.webp"></div>
+        </div>
+        <h3 style="margin:0px;color:white;">Recently Watched</h3>
+        <div class="firstbanner">
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\543529 madmen1111.jpg"> </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\aa-live-at-msg aziz ansari 11.jpg"> </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\Unbreakable-Kimmy-Schmidt-Wallpaper-unbreakable-kimmy-schmidt-39747980-1280-72011.jpg">  </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\virunga(1)1.jpg"> </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\website-review-netflixcom-streaming-service111.jpg"> </div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\netflix-Titans-S1-1.jpg"></div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\aquaman-poster-6.jpg"></div>
+            <div class="hover"> <img class="img" src="C:\Users\DELL\Desktop\Netflix\wonder women.jpg"></div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+      <footer>
+        <p>Questions? Call<u> 000-800-919-1694</u></P><br>
+        <table class="tbl">
+          <tr>
+            <td><u>FAQ</u></td>
+            <td><U>Help Centre</U></td>
+            <td><u>Account</u></td>
+          </tr>
+          <tr>
+            <td><u>Media Centre</u> </td>
+            <td><u>Investor Relations</u></td>
+            <td><u>Jobs</u></td>
+          </tr>
+          <tr>
+            <td><u>Ways to Watch</u></td>
+            <td><u>Terms of Use</u></td>
+            <td><u>Privacy</u></td>
+          </tr>
+          <tr>
+            <td><u>Cookie Preferences</u></td>
+            <td><u>Corporate Information</u></td>
+            <td><u>Contact Us</u></td>
+          </tr>
+          <tr>
+            <td><u>Speed Test</u></td>
+            <td><u>Legal Notices</u></td>
+            <td><u>Only on Netflix</u></td>
+          </tr>
+        </table><br>
+
+        <div style ="position:relative">
+        <select id="language" name="languageselect" style="padding-left: 30px;padding-top: 4px;padding-bottom: 4px;color:white;background-color: black;">
+          <option selected lang="en" label="English" value="en-IN">English</option>
+          <option lang="hi" label="हिन्दी" value="hi-IN">हिन्दी</option>
+        </select>
+        <div style="position:absolute;top:1px"><img src="C:\Users\DELL\Desktop\Netflix\language icon1.jpg"></div>
+        </div>
+
+          <p>Netflix India</p>
+      </footer>
+    </div>
+</body>
